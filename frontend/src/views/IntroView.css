@@ -1,0 +1,42 @@
+.intro {
+  width: min(100% - 32px, 680px);
+  margin: 15vh auto 0;
+  padding: 32px;
+  border: 1px solid #dfe8e1;
+  border-radius: 20px;
+  background: #fff;
+  color: #17241f;
+  font-family: "Segoe UI", "Malgun Gothic", sans-serif;
+}
+
+.intro__eyebrow {
+  color: #14794f;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+}
+
+.intro h1 {
+  margin: 12px 0;
+  font-size: clamp(2rem, 7vw, 3rem);
+  line-height: 1.2;
+}
+
+.intro p {
+  line-height: 1.6;
+}
+
+.intro__notice {
+  margin-top: 24px;
+  padding: 12px;
+  border-radius: 10px;
+  background: #f3f6f3;
+  color: #56645a;
+  font-size: 0.9rem;
+}
+
+@media (max-width: 520px) {
+  .intro {
+    padding: 24px;
+  }
+}
